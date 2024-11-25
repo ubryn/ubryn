@@ -1,16 +1,32 @@
-## Hi there 👋
+<!--```python
+#!/usr/bin/python
+# file: ubryn_conn.py
 
-<!--
-**ubryn/ubryn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+import pwn
 
-Here are some ideas to get you started:
+p = pwn.process("./ubryn")
+resp = p.recv()
+print(resp.decode())
+p.close()
+```-->
+```bash
+$ python3 ./ubryn_conn.py
+[+] Starting local process './ubryn': pid 506
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+# Hello, I'm                                                                
+#    _                  _               _    _        _          _          
+#   /\_\               / /\            /\ \ /\ \     /\_\       /\ \     _  
+#  / / /         _    / /  \          /  \ \\ \ \   / / /      /  \ \   /\_\
+#  \ \ \__      /\_\ / / /\ \        / /\ \ \\ \ \_/ / /      / /\ \ \_/ / /
+#   \ \___\    / / // / /\ \ \      / / /\ \_\\ \___/ /      / / /\ \___/ / 
+#    \__  /   / / // / /\ \_\ \    / / /_/ / / \ \ \_/      / / /  \/____/  
+#    / / /   / / // / /\ \ \___\  / / /__\/ /   \ \ \      / / /    / / /   
+#   / / /   / / // / /  \ \ \__/ / / /_____/     \ \ \    / / /    / / /    
+#  / / /___/ / // / /____\_\ \  / / /\ \ \        \ \ \  / / /    / / /     
+# / / /____\/ // / /__________\/ / /  \ \ \        \ \_\/ / /    / / /      
+# \/_________/ \/_____________/\/_/    \_\/         \/_/\/_/     \/_/      .
+#                                                                           
+# Are you ready to question everything you thought you knew?                
+
+[*] Stopped process './ubryn' (pid 506)
+```
